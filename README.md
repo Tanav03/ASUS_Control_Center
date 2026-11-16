@@ -15,39 +15,39 @@ Official OEM utilities like MyASUS are either bloated with background services, 
 - **Ryzen 7 5825U Power & SMU Tuning:** Adjust STAPM sustained, PPT Fast, and PPT Slow wattage limits, Tctl thermal throttle targets, Curve Optimizer offsets, and Radeon iGPU max clocks.
 - **Interactive IceBlade Fan Curve:** Tune 6 temperature-to-duty-cycle points with a live `tk.Canvas` curve preview.
 - **42Wh Battery Health Protection:** Cap charging at 60%, 80%, or 100% to prevent cell degradation when plugged into the 45W AC adapter or USB-C PD.
-- **Display & Peripheral Controls:** Toggle ASUS Splendid color modes, Chiclet keyboard backlight levels, 250-nit panel brightness, and Two-Way AI Noise Canceling[cite: 1].
-- **Rule-Based Automation:** Create event triggers to automatically swap profiles when plugging in AC power, dropping below 20% battery, or launching specific apps[cite: 1].
-- **Zero External Dependencies:** Written strictly using Python's built-in `tkinter` standard library—no `pip install` required[cite: 1].
+- **Display & Peripheral Controls:** Toggle ASUS Splendid color modes, Chiclet keyboard backlight levels, 250-nit panel brightness, and Two-Way AI Noise Canceling.
+- **Rule-Based Automation:** Create event triggers to automatically swap profiles when plugging in AC power, dropping below 20% battery, or launching specific apps.
+- **Zero External Dependencies:** Written strictly using Python's built-in `tkinter` standard library—no `pip install` required.
 
 ## Screenshots & Walkthrough
 
 ### 1. Dashboard & Live Telemetry
 ![Dashboard View](./assets/01-dashboard.png)
-*Overview of the active AIPT power profile, 42Wh battery charge cap, Ryzen 7 5825U package temperature, IceBlade fan RPM, and MyASUS quick toggles[cite: 1].*
+*Overview of the active AIPT power profile, 42Wh battery charge cap, Ryzen 7 5825U package temperature, IceBlade fan RPM, and MyASUS quick toggles.*
 
 ### 2. Power & Cooling + Fan Curve
 ![Power and Cooling View](./assets/02-power-cooling.png)
 ![Fan Curve View](./assets/03-fan-curve.png)
-*Granular sliders for STAPM/PPT power envelopes, thermal throttle limits, and the 6-point IceBlade fan duty cycle graph[cite: 1].*
+*Granular sliders for STAPM/PPT power envelopes, thermal throttle limits, and the 6-point IceBlade fan duty cycle graph.*
 
 ### 3. CPU & iGPU Tuning
 ![CPU Tuning View](./assets/04-cpu-tuning.png)
-*Zen 3 All-Core Curve Optimizer offsets, Radeon Vega 8 iGPU clock limits, and Core Performance Boost toggles[cite: 1].*
+*Zen 3 All-Core Curve Optimizer offsets, Radeon Vega 8 iGPU clock limits, and Core Performance Boost toggles.*
 
 ### 4. Battery & Device Controls
 ![Battery Health View](./assets/05-battery.png)
 ![Device and Display View](./assets/06-device.png)
-*Charge threshold radio presets (60% / 80% / 100%), ASUS Splendid color gamut profiles, keyboard backlight levels, and array microphone filters[cite: 1].*
+*Charge threshold radio presets (60% / 80% / 100%), ASUS Splendid color gamut profiles, keyboard backlight levels, and array microphone filters.*
 
 ### 5. Automation, System Inventory, Sensors & Settings
 ![Automation View](./assets/07-automation.png)
 ![System and Sensors View](./assets/08-system-sensors.png)
 ![Settings View](./assets/09-settings.png)
-*Custom event-driven profile rules, full M1502YA-BQ703WS hardware inventory, live thermal/voltage sensor readouts, and polling interval configuration[cite: 1].*
+*Custom event-driven profile rules, full M1502YA-BQ703WS hardware inventory, live thermal/voltage sensor readouts, and polling interval configuration.*
 
 ## Quick Start
 
-Since the app relies exclusively on Python's standard library, setup takes less than a minute[cite: 1].
+Since the app relies exclusively on Python's standard library, setup takes less than a minute.
 
 ### Prerequisites
 - Python 3.8+ with `tkinter` enabled (on Ubuntu/Debian, ensure `python3-tk` is installed).
